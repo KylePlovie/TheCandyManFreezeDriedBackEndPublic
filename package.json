@@ -1,0 +1,25 @@
+{
+  "name": "candy-man-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend for Candy Man project with Stripe payments",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^3.9.0",
+    "@stripe/stripe-js": "^7.8.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "googleapis": "^155.0.0",
+    "stripe": "^18.4.0"
+  }
+}
